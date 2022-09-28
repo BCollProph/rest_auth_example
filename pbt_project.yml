@@ -1,0 +1,25 @@
+name: RESTAuthExample
+description: ''
+version: 0.0.1
+author: scott@simpledatalabs.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/GemBased:
+    name: GemBased
+    description: Purely gem-based approach to fetching an Auth token for use in RestAPIEnrich
+      gem
+    author: scott@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-09-28 18:45:45'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: []

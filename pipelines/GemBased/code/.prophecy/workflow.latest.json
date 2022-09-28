@@ -1,0 +1,880 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "332",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ {
+          "name" : "API_USERNAME",
+          "kind" : {
+            "type" : "string",
+            "value" : "api-user4@iwt.net"
+          },
+          "optional" : false
+        }, {
+          "name" : "API_PASSWORD",
+          "kind" : {
+            "type" : "string",
+            "value" : "b3z0nV0cLO"
+          },
+          "optional" : false
+        }, {
+          "name" : "API_CLIENT_ID",
+          "kind" : {
+            "type" : "string",
+            "value" : "0oahdhjkutaGcIK2M4x6"
+          },
+          "optional" : false
+        }, {
+          "name" : "PAGE_COUNT",
+          "kind" : {
+            "type" : "int",
+            "value" : 10
+          },
+          "optional" : false
+        } ]
+      },
+      "fabrics" : { },
+      "instances" : { },
+      "selected" : "default"
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    },
+    "topLevelPackage" : "gembased"
+  },
+  "connections" : [ {
+    "id" : "9dDkVZQfmamI2d3x_fTCp",
+    "source" : "lIT5vUdl83LofXngypX0J$$TIbW5VgO0jvb1elmUrNiW",
+    "sourcePort" : "wObsHlDNAwQFWL4ET9JpX$$IPpaeq6yXeGcJismBbC5-",
+    "target" : "DDyRy-6qw9bhs1-RWD0Nl$$25kblghkQTZ639TShocwB",
+    "targetPort" : "Thi5wm_Sb8K78fofBxvkq$$QuFpAdd1S35o16ClPgaB1"
+  }, {
+    "id" : "dayOtXcZSO-_DjiL-0cda",
+    "source" : "DDyRy-6qw9bhs1-RWD0Nl$$25kblghkQTZ639TShocwB",
+    "sourcePort" : "7mQeFVSxKXpnGW2MoPLuT$$8nbQwcOjNgRerhtGf75EO",
+    "target" : "oFMa0nXSAIEqPYlAXxyZ9$$3kj8KbhPO5FmwPoMRVfcM",
+    "targetPort" : "vxeEFOEGHACebdOwU4IJR$$YWgII-7o2xpSGXNaeynkr"
+  }, {
+    "id" : "GHjDAeBvf88P9CMNdn1y3",
+    "source" : "mZvPMn1slju54NBUFPWwG$$ZNiazGSu0EfzSjb6K0tRW",
+    "sourcePort" : "K0OEg64-11H-_8jYA4TDB$$DzDG4ZSezNmjHq2mxFA6M",
+    "target" : "JfLY4sECFQx3CBN6Y3aYJ$$0HZxjL_5Rh3sZZkgmHCBC",
+    "targetPort" : "UsOdx6Y-FaJS5UiSKS14a$$DRUAsUtocm0kqis8n2gcV"
+  }, {
+    "id" : "hiTGxaPV-Y32oJw3nKBiP",
+    "source" : "mZvPMn1slju54NBUFPWwG$$ZNiazGSu0EfzSjb6K0tRW",
+    "sourcePort" : "K0OEg64-11H-_8jYA4TDB$$DzDG4ZSezNmjHq2mxFA6M",
+    "target" : "Or8-EqXhFV-Y9wXqHNA0B$$Y-UCPBme0zcvBNWXUC6Mq",
+    "targetPort" : "NHssQOdJfitnnlsszzYBW$$gm558SW5SqpveIaVS7lib"
+  }, {
+    "id" : "bjY4-DnR_0A2HHNKWWTwn",
+    "source" : "oFMa0nXSAIEqPYlAXxyZ9$$3kj8KbhPO5FmwPoMRVfcM",
+    "sourcePort" : "nm5kaBr_z29MDeYeJu7cI$$4rQoC3Uc2OA6YlQSZx2ZM",
+    "target" : "nV7r_SkRQd4Yjy46SSo88$$9TPpA2OCBSclUQGoJ-AsL",
+    "targetPort" : "HODr63rM9pSoGKOQWHYD4$$tombitsHHtwP6cb7TP1DL"
+  }, {
+    "id" : "YLS3l-YwekOS0tfebZbjJ",
+    "source" : "JfLY4sECFQx3CBN6Y3aYJ$$0HZxjL_5Rh3sZZkgmHCBC",
+    "sourcePort" : "NduZQW4GBCPh_vA-YU25n$$5gkqyB2D6e0bTpfHKbTG1",
+    "target" : "nV7r_SkRQd4Yjy46SSo88$$9TPpA2OCBSclUQGoJ-AsL",
+    "targetPort" : "o5dpd_IVPcZjIWaVf1SOS$$2wpj7NV9k5eMCyydpgsXO"
+  }, {
+    "id" : "Pen53Ip5Vpguz6XCBUyfl",
+    "source" : "nV7r_SkRQd4Yjy46SSo88$$9TPpA2OCBSclUQGoJ-AsL",
+    "sourcePort" : "MDhLQPdOHk70nvHWk0-Nm$$jpwrgv6VyFVJiLcjLQeLA",
+    "target" : "pKthfa7bZhtosAEgrgCoB$$3h2aYm8ZOaEHt3ufkZLbX",
+    "targetPort" : "7dSpuw1JmtKcYkeLxMt1J$$3njV6kM1esQSyawk1jLft"
+  }, {
+    "id" : "_EUhPEu7aU0JKHxNxkfM0",
+    "source" : "pKthfa7bZhtosAEgrgCoB$$3h2aYm8ZOaEHt3ufkZLbX",
+    "sourcePort" : "ejH-hbLOmXHVwgOjI7LRU$$dINESgqf2CG5L1rWycCma",
+    "target" : "WIpepf7x8PfKMliFZ_p7Y$$lV-1W6J3UxXAk1J5uh9qV",
+    "targetPort" : "gXY45sp8lkumYOaa19r8d$$htF4cSz3PAbhj125eLsyO"
+  } ],
+  "processes" : {
+    "oFMa0nXSAIEqPYlAXxyZ9$$3kj8KbhPO5FmwPoMRVfcM" : {
+      "id" : "oFMa0nXSAIEqPYlAXxyZ9$$3kj8KbhPO5FmwPoMRVfcM",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "MakeHeaders",
+        "slug" : "MakeHeaders",
+        "x" : 972.8000000000001,
+        "y" : 452.8,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "vxeEFOEGHACebdOwU4IJR$$YWgII-7o2xpSGXNaeynkr",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "nm5kaBr_z29MDeYeJu7cI$$4rQoC3Uc2OA6YlQSZx2ZM",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "vxeEFOEGHACebdOwU4IJR$$YWgII-7o2xpSGXNaeynkr##content_parsed.access_token", "vxeEFOEGHACebdOwU4IJR$$YWgII-7o2xpSGXNaeynkr##content_parsed" ],
+        "expressions" : [ {
+          "target" : "headers",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "to_json(named_struct(\"Authorization\", concat('Bearer ', content_parsed.access_token)))"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "nV7r_SkRQd4Yjy46SSo88$$9TPpA2OCBSclUQGoJ-AsL" : {
+      "id" : "nV7r_SkRQd4Yjy46SSo88$$9TPpA2OCBSclUQGoJ-AsL",
+      "component" : "Join",
+      "metadata" : {
+        "label" : "URLS_Auth",
+        "slug" : "URLS_Auth",
+        "x" : 1178,
+        "y" : 578.8,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "HODr63rM9pSoGKOQWHYD4$$tombitsHHtwP6cb7TP1DL",
+          "slug" : "in0"
+        }, {
+          "id" : "o5dpd_IVPcZjIWaVf1SOS$$2wpj7NV9k5eMCyydpgsXO",
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "MDhLQPdOHk70nvHWk0-Nm$$jpwrgv6VyFVJiLcjLQeLA",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "conditions" : [ {
+          "alias" : "in1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "1=1"
+          },
+          "joinType" : "inner"
+        } ],
+        "expressions" : [ {
+          "target" : "url",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in1.url"
+          },
+          "description" : "",
+          "_row_id" : null
+        }, {
+          "target" : "headers",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.headers"
+          },
+          "description" : "",
+          "_row_id" : null
+        } ],
+        "hints" : [ {
+          "id" : "HODr63rM9pSoGKOQWHYD4$$tombitsHHtwP6cb7TP1DL",
+          "alias" : "in0",
+          "hintType" : "none",
+          "propagateColumns" : false
+        }, {
+          "id" : "o5dpd_IVPcZjIWaVf1SOS$$2wpj7NV9k5eMCyydpgsXO",
+          "alias" : "in1",
+          "hintType" : "none",
+          "propagateColumns" : false
+        } ],
+        "allIn1" : null,
+        "activeTab" : "expressions",
+        "columnsSelector" : [ "HODr63rM9pSoGKOQWHYD4$$tombitsHHtwP6cb7TP1DL##headers", "o5dpd_IVPcZjIWaVf1SOS$$2wpj7NV9k5eMCyydpgsXO##url" ],
+        "allIn0" : null,
+        "whereClause" : null,
+        "headAlias" : "in0"
+      }
+    },
+    "DDyRy-6qw9bhs1-RWD0Nl$$25kblghkQTZ639TShocwB" : {
+      "id" : "DDyRy-6qw9bhs1-RWD0Nl$$25kblghkQTZ639TShocwB",
+      "component" : "RestAPIEnrich",
+      "metadata" : {
+        "label" : "RestAPIEnrich_0",
+        "slug" : "RestAPIEnrich_0",
+        "x" : 779.5999999999999,
+        "y" : 449.2,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Thi5wm_Sb8K78fofBxvkq$$QuFpAdd1S35o16ClPgaB1",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "7mQeFVSxKXpnGW2MoPLuT$$8nbQwcOjNgRerhtGf75EO",
+          "slug" : "out",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "id",
+              "type" : "long",
+              "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "api_output",
+              "type" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "status_code",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "reason",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "url",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "content",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "content_parsed",
+              "type" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "access_token",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "expires_in",
+                  "type" : "long",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "refresh_token",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "scope",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "token_type",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          }
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : true
+      },
+      "properties" : {
+        "awaitTime" : null,
+        "method" : "POST",
+        "proxies" : null,
+        "verify" : null,
+        "streamFrom" : null,
+        "headersFrom" : "staticValue",
+        "auth" : null,
+        "url" : "https://dev-457931.okta.com/oauth2/aushd4c95QtFHsfWt4x6/v1/token",
+        "json" : null,
+        "cert" : null,
+        "data" : "scope=offline_access&grant_type=password&username=${API_USERNAME}&password=${API_PASSWORD}&client_id=${API_CLIENT_ID}",
+        "params" : null,
+        "allow_redirectsFrom" : null,
+        "authFrom" : null,
+        "proxiesFrom" : null,
+        "files" : null,
+        "awaitTimeFrom" : null,
+        "cookies" : null,
+        "jsonFrom" : null,
+        "urlFrom" : "staticValue",
+        "parseContent" : true,
+        "activeTab" : "basicTab",
+        "allow_redirects" : null,
+        "certFrom" : null,
+        "stream" : null,
+        "filesFrom" : null,
+        "paramsFrom" : null,
+        "dataFrom" : "staticValue",
+        "timeoutFrom" : null,
+        "verifyFrom" : null,
+        "headers" : "{\"Content-Type\": \"application/x-www-form-urlencoded\"}",
+        "methodFrom" : "staticValue",
+        "timeout" : null,
+        "cookiesFrom" : null
+      }
+    },
+    "JfLY4sECFQx3CBN6Y3aYJ$$0HZxjL_5Rh3sZZkgmHCBC" : {
+      "id" : "JfLY4sECFQx3CBN6Y3aYJ$$0HZxjL_5Rh3sZZkgmHCBC",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Make_URLs",
+        "slug" : "Make_URLs",
+        "x" : 968.8000000000002,
+        "y" : 656.6,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "UsOdx6Y-FaJS5UiSKS14a$$DRUAsUtocm0kqis8n2gcV",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "NduZQW4GBCPh_vA-YU25n$$5gkqyB2D6e0bTpfHKbTG1",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ {
+          "target" : "url",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "concat('https://api.instantwebtools.net/v2/passenger?page=', CAST(id AS int), '&size=10&startDate=', date_sub(current_date(), 1))"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "lIT5vUdl83LofXngypX0J$$TIbW5VgO0jvb1elmUrNiW" : {
+      "id" : "lIT5vUdl83LofXngypX0J$$TIbW5VgO0jvb1elmUrNiW",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "DummyInput1",
+        "slug" : "DummyInput1",
+        "x" : 556.3999999999999,
+        "y" : 446.79999999999995,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "wObsHlDNAwQFWL4ET9JpX$$IPpaeq6yXeGcJismBbC5-",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "out0 = spark.range(1)",
+        "scriptMethodHeader" : "def Script(spark: SparkSession) -> DataFrame:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "WIpepf7x8PfKMliFZ_p7Y$$lV-1W6J3UxXAk1J5uh9qV" : {
+      "id" : "WIpepf7x8PfKMliFZ_p7Y$$lV-1W6J3UxXAk1J5uh9qV",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Ignore_Errors",
+        "slug" : "Ignore_Errors",
+        "x" : 1603.9999999999998,
+        "y" : 580,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "gXY45sp8lkumYOaa19r8d$$htF4cSz3PAbhj125eLsyO",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "oAKAdbq4vpE_5cJxGNIrs$$PxNu4oVmqhrjQ0dhDxqbo",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "gXY45sp8lkumYOaa19r8d$$htF4cSz3PAbhj125eLsyO##api_output.status_code", "gXY45sp8lkumYOaa19r8d$$htF4cSz3PAbhj125eLsyO##api_output" ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "api_output.status_code==\"200\""
+        }
+      }
+    },
+    "pKthfa7bZhtosAEgrgCoB$$3h2aYm8ZOaEHt3ufkZLbX" : {
+      "id" : "pKthfa7bZhtosAEgrgCoB$$3h2aYm8ZOaEHt3ufkZLbX",
+      "component" : "RestAPIEnrich",
+      "metadata" : {
+        "label" : "API_Call",
+        "slug" : "API_Call",
+        "x" : 1422.8,
+        "y" : 578.8,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7dSpuw1JmtKcYkeLxMt1J$$3njV6kM1esQSyawk1jLft",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "ejH-hbLOmXHVwgOjI7LRU$$dINESgqf2CG5L1rWycCma",
+          "slug" : "out",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "url",
+              "type" : "string",
+              "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "headers",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "api_output",
+              "type" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "status_code",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "reason",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "url",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "content",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "content_parsed",
+              "type" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "data",
+                  "type" : {
+                    "type" : "array",
+                    "elementType" : {
+                      "type" : "struct",
+                      "fields" : [ {
+                        "name" : "__v",
+                        "type" : "long",
+                        "nullable" : true,
+                        "metadata" : {
+                          "description" : "",
+                          "mappings" : [ ],
+                          "tags" : [ ]
+                        }
+                      }, {
+                        "name" : "_id",
+                        "type" : "string",
+                        "nullable" : true,
+                        "metadata" : {
+                          "description" : "",
+                          "mappings" : [ ],
+                          "tags" : [ ]
+                        }
+                      }, {
+                        "name" : "airline",
+                        "type" : {
+                          "type" : "array",
+                          "elementType" : {
+                            "type" : "struct",
+                            "fields" : [ {
+                              "name" : "country",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "established",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "head_quaters",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "id",
+                              "type" : "long",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "logo",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "name",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "slogan",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            }, {
+                              "name" : "website",
+                              "type" : "string",
+                              "nullable" : true,
+                              "metadata" : {
+                                "description" : "",
+                                "mappings" : [ ],
+                                "tags" : [ ]
+                              }
+                            } ]
+                          },
+                          "containsNull" : true
+                        },
+                        "nullable" : true,
+                        "metadata" : {
+                          "description" : "",
+                          "mappings" : [ ],
+                          "tags" : [ ]
+                        }
+                      }, {
+                        "name" : "name",
+                        "type" : "string",
+                        "nullable" : true,
+                        "metadata" : {
+                          "description" : "",
+                          "mappings" : [ ],
+                          "tags" : [ ]
+                        }
+                      }, {
+                        "name" : "trips",
+                        "type" : "long",
+                        "nullable" : true,
+                        "metadata" : {
+                          "description" : "",
+                          "mappings" : [ ],
+                          "tags" : [ ]
+                        }
+                      } ]
+                    },
+                    "containsNull" : true
+                  },
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "totalPages",
+                  "type" : "long",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "totalPassengers",
+                  "type" : "long",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          }
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : true
+      },
+      "properties" : {
+        "awaitTime" : null,
+        "method" : "GET",
+        "proxies" : null,
+        "verify" : null,
+        "streamFrom" : null,
+        "headersFrom" : "existingColumn",
+        "auth" : null,
+        "url" : "url",
+        "json" : null,
+        "cert" : null,
+        "data" : null,
+        "params" : null,
+        "allow_redirectsFrom" : null,
+        "authFrom" : null,
+        "proxiesFrom" : null,
+        "files" : null,
+        "awaitTimeFrom" : null,
+        "cookies" : null,
+        "jsonFrom" : null,
+        "urlFrom" : "existingColumn",
+        "parseContent" : true,
+        "activeTab" : "basicTab",
+        "allow_redirects" : null,
+        "certFrom" : null,
+        "stream" : null,
+        "filesFrom" : null,
+        "paramsFrom" : null,
+        "dataFrom" : null,
+        "timeoutFrom" : null,
+        "verifyFrom" : null,
+        "headers" : "headers",
+        "methodFrom" : "staticValue",
+        "timeout" : null,
+        "cookiesFrom" : null
+      }
+    },
+    "mZvPMn1slju54NBUFPWwG$$ZNiazGSu0EfzSjb6K0tRW" : {
+      "id" : "mZvPMn1slju54NBUFPWwG$$ZNiazGSu0EfzSjb6K0tRW",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Page_Count",
+        "slug" : "Page_Count",
+        "x" : 772,
+        "y" : 655.4,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "K0OEg64-11H-_8jYA4TDB$$DzDG4ZSezNmjHq2mxFA6M",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "out0 = spark.range(Config.PAGE_COUNT)",
+        "scriptMethodHeader" : "def Script(spark: SparkSession) -> DataFrame:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "Or8-EqXhFV-Y9wXqHNA0B$$Y-UCPBme0zcvBNWXUC6Mq" : {
+      "id" : "Or8-EqXhFV-Y9wXqHNA0B$$Y-UCPBme0zcvBNWXUC6Mq",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Make_URLs_With_Date",
+        "slug" : "Make_URLs_With_Date",
+        "x" : 975.6000000000001,
+        "y" : 869.8,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "NHssQOdJfitnnlsszzYBW$$gm558SW5SqpveIaVS7lib",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Rr2yq6gjLxR4LyL1NpyfR$$VD0U4d80M002kSVxmHrxD",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "NHssQOdJfitnnlsszzYBW$$gm558SW5SqpveIaVS7lib##id" ],
+        "expressions" : [ {
+          "target" : "url",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "concat('https://api.instantwebtools.net/v2/passenger?page=', CAST(id AS int), '&size=10')"
+          },
+          "description" : ""
+        } ]
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
+  }
+}
